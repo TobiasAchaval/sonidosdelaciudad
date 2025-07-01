@@ -59,16 +59,10 @@ const Index = () => {
                 frameBorder="0" 
                 allowfullscreen="" 
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                loading="lazy">
+                loading="lazy"
+                title="Spotify Embed">
+                  
               </iframe>
-              <iframe
-                src="https://open.spotify.com/embed/artist/3tAICgiSR5PfYY4B8qsoAU?utm_source=generator"
-                title="Spotify Embed"
-                frameBorder="0" // Añadido para consistencia
-                allowFullScreen="" // Añadido según el código de incrustación de Spotify
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" // Añadido según el código de incrustación de Spotify
-                loading="lazy" // Añadido para optimización de carga
-              ></iframe>
             </div>
           </section>
           <section>
